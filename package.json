@@ -1,0 +1,22 @@
+{
+  "name": "js-coding-test",
+  "version": "0.0.0",
+  "description": "A small app used for testing candidates' coding skills in JavaScript",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ravebuild/js-coding-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravebuild/js-coding-test/issues"
+  },
+  "homepage": "https://github.com/ravebuild/js-coding-test#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
