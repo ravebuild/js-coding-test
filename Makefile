@@ -9,3 +9,6 @@ run:
 
 test:
 	@docker run --interactive --rm --tty --volume ./:/app --workdir /app node:18-alpine npm run test
+
+watch:
+	@docker run --interactive --rm --tty --volume ./:/app --workdir /app node:18-alpine npm run test -- --watchAll
